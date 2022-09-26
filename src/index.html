@@ -14,6 +14,8 @@
     <p id="demo3"></p>
     <p id="demo4"></p>
     <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
 
     <script>
 
@@ -74,7 +76,7 @@
         {
             alert("Hello World!");
         }
-        myFunction();
+        document.getElementById("demo6").innerHTML = myFunction();
 
         // Function Exercise 2
         function  myFunction()
@@ -82,7 +84,14 @@
            alert("Hello World!");
          }
  
-
+         // Function Exercise 3
+        function myFunction() 
+        { 
+            return "Hello";
+        }
+        document.getElementById("demo7").innerHTML = myFunction();
+    
+    
     </script>
     
 </body>
