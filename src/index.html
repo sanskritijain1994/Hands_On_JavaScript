@@ -9,20 +9,23 @@
 </head>
 <body>
     <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
     <script>
 
         // Variable Exercise 1
         var carName="Volvo";
-        document.write(carName);
+        document.getElementById("demo").innerHTML = carName + "<br>";
 
         // Variable Exercise 2
         var x=50;
-        document.write(x);
+        document.getElementById("demo1").innerHTML = x + "<br>";
 
         // Variable Exercise 3
         var x = 5;
         var y = 10;
-        document.write(x + y);
+        document.getElementById("demo2").innerHTML =x + y + "<br>";
 
         // Variable Exercise 4
         var x = 5;
@@ -32,7 +35,15 @@
 
         // Variable Exercise 5
         var firstName = "John" , lastName = "Doe" , age = 35;
-        document.write(firstName + lastName + age)
+        document.getElementById("demo3").innerHTML =firstName + lastName + age;
+
+        // Operator Exercise 1
+        alert(10 * 5);
+
+        // Operator Exercise 2
+        alert(10 / 2);
+
+        
 
     </script>
     
